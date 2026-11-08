@@ -1,0 +1,44 @@
+body{
+    background-color: #FFEDB9
+}
+header{
+     background-color: black;
+     color: rgb(250, 245, 243);
+     border: 4px solid #FFA259
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(237, 124, 71);
+}
+header ul li{
+    display: inline;
+  margin: 50px;
+}
+h1{
+    text-align: center;
+    background-color: #FFA259
+}
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+input[type=submit] :hover,
+input[type=submit] :focus{
+
+    outline: none;
+    background-color:  rgb(237, 124, 71);
+
+}
+input[type=reset] :hover,
+input[type=reset] :focus{
+
+    outline: none;
+     background-color:  rgb(237, 124, 71);
+}
+
+input[type=submit], 
+input[type=reset]{
+
+    color:  rgb(237, 124, 71);
+}
